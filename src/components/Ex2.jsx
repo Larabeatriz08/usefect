@@ -28,7 +28,7 @@ export function Ex2() {
             <h2>Exemplo 2: busca cep</h2>
 
             <div>
-                <input type="number" id="cep" placeholder="digite seu CEP" onChange={(input) => setCep(input,target.value)}/>
+                <input type="number" id="cep" placeholder="digite seu CEP" onChange={(input) => setCep(input.target.value)}/>
 
                 
                 {cep.length === 8 && (
